@@ -20,6 +20,8 @@ reset_btn.addEventListener("click", () => {
 })
 
 search_btn.addEventListener("click", () => {
+  const span = document.createElement("span")
+  span.color = color.value;
   p.foreach(() => {
     
   })

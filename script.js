@@ -20,7 +20,9 @@ reset_btn.addEventListener("click", () => {
 })
 
 search_btn.addEventListener("click", () => {
-  
+  p.foreach(() => {
+    
+  })
 })
 
 

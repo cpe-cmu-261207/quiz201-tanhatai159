@@ -13,6 +13,7 @@ const color = document.querySelector("#color")
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
+  let student_id = 630610732;
   author.innerHTML = 630610732+length.value;
   btn_toggle.innerHTML = "show Author"
 }

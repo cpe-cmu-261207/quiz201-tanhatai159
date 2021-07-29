@@ -9,10 +9,12 @@ const search_btn = document.querySelector("#search")
 const oringin_word = p.innerHTML;
 const color = document.querySelector("#color")
 
+
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
-
+  author.innerHTML = 630610732+length.value;
+  btn_toggle.innerHTML = "show Author"
 }
 
 reset_btn.addEventListener("click", () => {

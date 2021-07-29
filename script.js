@@ -14,7 +14,7 @@ const color = document.querySelector("#color")
 
 btn_toggle.onclick = () => {
   let student_id = 630610732;
-  author.innerHTML = 630610732+length.value;
+  author.innerHTML = student_id+length.value;
   btn_toggle.innerHTML = "show Author"
 }
 
